@@ -1,0 +1,30 @@
+
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+<block wx:for="{{movies}}" wx:for-index="index">  
+  <swiper-item>  
+    <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+  </swiper-item>  
+</block>  
+</swiper>  
+<view>
+  <image src="/images/news1.png" class="head"></image>
+  <text class="headtext" bindtap="toOut">最强大脑！8岁女童3.6秒复原数字华容道    </text>
+  <view class="v1">
+  <text class="content">近日，来自山东日照的8岁女孩孔淑琦仅用时3.6秒就将4×4数字华容道复原，网友看后纷纷表示“自愧不如”。老师称，孔淑琦跟着自己学习魔方等益智课程已有一年，虽然目前的成绩国内领先，但她依然每天坚持在家练习。</text>
+</view>
+<image src="/images/news1.png" class="head"></image>
+  <text class="headtext" bindtap="toOut">9岁男孩打破吉尼斯纪录！复原仅用10秒</text>
+  <view class="v1">
+  <text class="content">11月20日消息，据报道，近日，在江西南昌的4×4数字华容道最快复原挑战中，一位9岁男孩以10.063秒的成绩打破了吉尼斯世界纪录.数字华容道项目要求选手用最少的时间和步数，将数字方块按顺序排列。此前，这项吉尼斯世界纪录为22秒。</text>
+</view>
+<image src="/images/news1.png" class="head"></image>
+  <text class="headtext" bindtap="toOut">最强大脑！8岁女童3.6秒复原数字华容道    </text>
+  <view class="v1">
+  <text class="content">近日，来自山东日照的8岁女孩孔淑琦仅用时3.6秒就将4×4数字华容道复原，网友看后纷纷表示“自愧不如”。老师称，孔淑琦跟着自己学习魔方等益智课程已有一年，虽然目前的成绩国内领先，但她依然每天坚持在家练习。</text>
+</view>
+<image src="/images/news1.png" class="head"></image>
+  <text class="headtext" bindtap="toOut">9岁男孩打破吉尼斯纪录！复原仅用10秒</text>
+  <view class="v1">
+  <text class="content">11月20日消息，据报道，近日，在江西南昌的4×4数字华容道最快复原挑战中，一位9岁男孩以10.063秒的成绩打破了吉尼斯世界纪录.数字华容道项目要求选手用最少的时间和步数，将数字方块按顺序排列。此前，这项吉尼斯世界纪录为22秒。</text>
+</view>
+</view>
